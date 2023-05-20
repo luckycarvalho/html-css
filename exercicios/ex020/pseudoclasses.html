@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        /* div#paragrafo > p {
+            display: none;
+        }
+        
+        div#paragrafo:hover > p {
+            display: block;
+            color: blue;
+            background-color: aquamarine;
+            width: 200px; 
+        }    */
+        
+
+        div {
+            display: inline-flex;
+            background-color: aquamarine;
+            border: 1px solid black;
+            height: 200px;
+            width: 200px;
+            text-indent: 50px;
+
+        }
+        #bloco01:hover {
+            background-color: yellow;
+        }
+        #bloco02:hover{
+            background-color: red;
+        }
+        #bloco03:hover {
+            background-color: blue;
+        }
+        a {
+            font-weight: bold;
+            text-decoration: none;
+            color: blue;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: rebeccapurple;
+        }
+        a:visited {
+            color: red;
+        }
+        .especial:hover {
+            background-color: black;
+            color: white;
+            text-decoration: none;
+        
+        }
+        a:active {
+            color: royalblue
+        }
+    </style>
+</head>
+<body>
+    <!-- <h1>Testando pseudo-classes</h1>
+    <div id="paragrafo">
+        Passe o mouse aqui!
+        <p>SURPRESAAA!</p>
+    </div> -->
+    <h1>Blocos</h1>
+    <div id="bloco01">Bloco 01</div>
+    <div id="bloco02">Bloco 02</div>
+    <div id="bloco03">Bloco 03</div>
+    <main>
+        <h1>Pseudo-classes em links</h1>
+        <ul>
+            <li>Acesse o GitHub aqui: <a href="https://github.com/" target="_blank" rel="">github.com</a></li>
+            <li>Acesse o Youtube aqui: <a href="https://www.youtube.com/" target="_blank" rel="external">youtube.com</a></li>
+            <li>Acesse o Suap aqui: <a href="https://suap.ifma.edu.br/" target="_blank" rel="external" class="especial">suap.ifma.edu.br</a></li>
+        </ul>
+    </main>
+</body>
+</html>

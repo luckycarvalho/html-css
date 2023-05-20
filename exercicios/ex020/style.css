@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+h1, h2 {
+    color: #2f1c6a;
+}
+
+p {
+    width: 600px;
+}
+
+div > img{
+    display: none;
+}
+
+#python:hover > img {
+    display: block;
+
+}
+
+#titulo-principal {
+    text-align: center;
+}
+
+.html {
+    color: #e05f31;
+}
+
+.css {
+    color: #3090ca;
+}

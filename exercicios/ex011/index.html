@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos, ou simplesmente aumente ou diminua a tela de seu navegador.</p>
+    <picture>
+        <source media="(max-width: 850px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1150px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Aprendendo a adicionar áudio em HTML5</p>
+    <audio preload="metadata" controls autoplay>
+        <source src="audios/savior-telecasted.mp3" type="audio/mpeg">
+        <source src="audios/savior-telecasted.ogg" type="audio/ogg">
+        <source src="audios/savior-telecasted.wav" type="audio/wav">
+        <p>Seu navegador não suporta áudio <a href="audios/savior-telecasted.mp3" download="savior-telecasted" type="audio/mpeg">Clique aqui para  baixar o mp3</a></p>
+        
+
+    </audio>
+
+</body>
+</html>
