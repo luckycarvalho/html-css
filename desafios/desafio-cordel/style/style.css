@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+
+/*
+    Fontes
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+/*
+    Variáveis
+*/ 
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+
+/*
+    Config globais 
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+    Conteúdo
+*/
+
