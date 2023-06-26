@@ -33,38 +33,54 @@
     Conteúdo
 */
 
-body {
-    font-family: var(--fonte1)
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
 }
 
 header {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 50px;
 }
 
-header > h1 {
-    font-family: var(--fonte2);
-    font-size: 3em; 
+header > h1{ 
+    padding-top: 50px;
+    font-variant: small-caps;
 }
 
-header > p > a {
-    text-decoration: none;
+header > p {
+    padding-bottom: 50px;
+}
+
+a {
     color: white;
-    font-weight: bold;
+    text-decoration: none;
+    font-weight: bolder;
 }
 
-header > p > a:hover {
+a:hover {
     text-decoration: underline;
 }
 
-section.q1 {
-    background-image: url(../imagens/background001.jpg);
-    background-size: cover;
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
 }
 
+section.normal {
+    background-color: white;
+    color: black;
+}
 
-section.q2 {
-    background-image: url(../imagens/background002.jpg);
+section.imagem {
+    background-color: rgba(0, 0, 0, 0.658);
+    color: white;
+}
+
+section.imagem > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.397);
 }
