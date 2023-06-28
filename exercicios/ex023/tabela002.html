@@ -12,8 +12,13 @@
         table {
             width: 400px;
             border-collapse: collapse;
+	    position: relative;
         }
-
+	thead > tr > th {
+	    position: sticky;
+	    top: -1px;
+	    background-color: gray;
+	}
         caption {
             padding: 10px;
             font-size: 1.3em;
@@ -34,10 +39,15 @@
         td.num {
             text-align: right;
         }
+	tbody > tr:nth-child(even) {
+	    background-color: rgba(169, 169, 169, 0.582);
+	}		
+
     </style>
 </head>
 <body>
-    <h1>Tabela Grande</h1>
+    <h1>Tabela Grande</h1> 
+    <hr>
     <table>
         <caption>População das Unidades Federativas</caption>
         <thead>
